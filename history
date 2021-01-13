@@ -1,0 +1,156 @@
+    1  ls
+    2  cd Documents/
+    3  ls
+    4  rm -rf GitCourse
+    5  cd firstproject/
+    6  ll
+    7  touch a b
+    8  ls
+    9  git status
+   10  git log
+   11  git add a b
+   12  git status
+   13  ls
+   14  git rm a -f
+   15  git status
+   16  ls
+   17  git rm b --cashed
+   18  git rm b --cached
+   19  git status
+   20  ls
+   21  git add .
+   22  git status
+   23  git commit -m "Added files: b and test2"
+   24  git log
+   25  history
+   26  git log
+   27  clear
+   28  touch test2
+   29  ls
+   30  git status
+   31  ls
+   32  git log
+   33  ls
+   34  cat test.txt 
+   35  echo "The file has been updated" >> test.txt 
+   36  ls
+   37  cat test.txt 
+   38  git status
+   39  git add .
+   40  git status
+   41  git commit -m "Modified file test.txt"
+   42  git log
+   43  cd .git
+   44  ls
+   45  cat HEAD
+   46  ls branches/
+   47  ls *
+   48  cd logs
+   49  ls
+   50  cat HEAD 
+   51  ls refs/
+   52  ls refs/heads/
+   53  cat refs/heads/master 
+   54  cd ..
+   55  ls
+   56  cat index 
+   57  ls
+   58  ls config 
+   59  cat config 
+   60  ll
+   61  pwd
+   62  ll
+   63  ls
+   64  cd ..
+   65  ls
+   66  git clone https://github.com/Levintovich/GitCourse.git
+   67  ls
+   68  cd GitCourse/
+   69  ls
+   70  git log
+   71  clear
+   72  git remote add origin https://github.com/Levintovich/GitCourse.git
+   73  ls
+   74  touch a
+   75  git status
+   76  git add .
+   77  git commit -m "Added file a"
+   78  git log
+   79  git pull
+   80  ls
+   81  git log
+   82  git pull
+   83  git push origin master
+   84  git remote add origin https://github.com/Levintovich/GitCourse.git
+   85  git push origin master
+   86  cd ..
+   87  ls
+   88  rm -rf GitCourse/
+   89  git clone https://github.com/Levintovich/GitCourse.git
+   90  cd GitCourse/
+   91  l
+   92  ls
+   93  git pull
+   94  git log
+   95  touch history
+   96  ls
+   97  history
+   98  history > history_$date
+   99  ls
+  100  echo $date
+  101  echo ${date}
+  102  echo $DATE
+  103  date
+  104  history > history_`date`
+  105  history > history_1
+  106  ls
+  107  rm -rf history history_ 
+  108  ls
+  109  git status
+  110  git add .
+  111  git commit -m "Added my first history of my Linux commands"
+  112  git log
+  113  ls
+  114  cat history_1 
+  115  ls
+  116  git status
+  117  git push
+  118  git push origin master
+  119  git push
+  120  git branch
+  121  git --version
+  122  git push origin main
+  123  git remote -v
+  124  ping https://github.com
+  125  ping github.com
+  126  ifconfig
+  127  sudo apt install net-tools
+  128  ifconfig
+  129  cd
+  130  pwd
+  131  ls .ssh
+  132  ll
+  133  ssh-keygen -t rsa -b 4096
+  134  ll .ssh
+  135  cd .ssh
+  136  ls
+  137  cat id_rsa
+  138  clear
+  139  ls
+  140  cat id_rsa.pub
+  141  cd
+  142  ls
+  143  cd Documents/
+  144  ls
+  145  cd GitCourse/
+  146  ls
+  147  ssh -T git@github.com
+  148  ls .ssh
+  149  ls ~/.ssh
+  150  cat ~/.ssh/known_hosts 
+  151  ping github.com
+  152  history
+  153  ping github.com
+  154  git config remote.origin.url git@github.com:Levintovich/GitCourse.git
+  155  pwd
+  156  history > history
