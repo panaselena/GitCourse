@@ -1,5 +1,10 @@
 This is a test branch
+conflict 1
+Master branch has updated the file
+conflict 2
+one more conflict
 A
 Master branch has updated the file
 This file was updated by branchConflict 2
-B
+
+
